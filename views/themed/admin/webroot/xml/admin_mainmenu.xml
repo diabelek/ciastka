@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+    <menuItem name="Artykuły" controller="articles" action="index"></menuItem>
+    <menuItem name="Użytkownicy" controller="users" action="index"></menuItem>
+</menu>

@@ -1,0 +1,8 @@
+.ajaxUpdatePanelLoading {
+	height: 100px;
+	background: url('../img/loading.png') center center no-repeat;
+}
+
+.ajaxUpdatePanelLoading span {
+	display: none;
+}

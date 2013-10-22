@@ -1,0 +1,13 @@
+.airfair table {
+	border: none;
+}
+
+.airfair th {
+	background-color: #dcebf2;
+	text-align: center;
+}
+
+.airfair td {
+	background-color: #f2f2f2;
+	text-align: center;
+}

@@ -1,0 +1,87 @@
+img {
+    border: none;
+}
+
+body {
+  font-family: Arial;
+  font-size: 12px;
+}
+
+#logo {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+#logo a,
+#logo a:link,
+#logo a:hover,
+#logo a:visited
+{
+  text-decoration: none;
+  color: #5e93bf;
+  font-weight: bold;
+  line-height: 200%
+}
+
+#logo a img
+{
+  margin-right: 45px;
+}
+
+#content {
+  text-align: center;
+}
+
+#footer {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#content h1 {
+  text-align: left;
+  display: block;
+  width: 280px;
+  padding: 10px;
+  color: #ce282a;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 0 auto;
+}
+
+.user.login {
+  background: url('../img/login/bg.jpg') top left no-repeat;
+  padding: 15px 10px;
+  width: 280px;
+  margin: 0 auto; 
+}
+
+.user.login .input {
+  text-align: right;
+  margin: 2px 0;
+}
+
+.user.login .input input {
+  background: url('../img/login/pole.png') top left repeat;
+  border: none;
+  width: 154px;
+  height: 24px;
+  padding: 3px 10px;
+}
+
+.user.login .submit {
+  text-align: right;
+}
+
+.user.login label {
+  font-weight: bold;
+  color: #ffffff;
+  padding-right: 5px;
+   
+}
+
+.message {
+  margin-top: 10px;
+  color: #ce282a;
+  font-size: 12px;
+}

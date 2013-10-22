@@ -1,0 +1,31 @@
+#thumbnails .thumbnail{
+	float: left;
+	margin: 10px;
+	position: relative;
+}
+
+#thumbnails .thumbnail img{
+	display: block;
+}
+
+#thumbnails .thumbnail div.title{
+	display: block;
+	padding-top: 5px;
+	text-align: center;
+	height: 15px;
+}
+
+.img_id {
+	display: none;
+}
+
+#thumbnails .thumbnail a.remLink{
+	position: absolute;
+	display: none;
+	top: 3px;
+	right: 3px;
+}
+
+#thumbnails .thumbnail:hover a.remLink{
+	display: block;
+}

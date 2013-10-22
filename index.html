@@ -1,0 +1,37 @@
+test<html>
+<head>
+	<meta charset="utf-8"> 
+</head>
+<body style="padding: 0; margin: 0">
+	<script type="text/javascript" src="cookies.js"></script>
+	<div id="cookieOpacity" style="display: none; background-color: black; opacity: 0.8; position: fixed; bottom: 0; width: 100%; height: 40px; z-index:1000"></div>
+	<div id="cookieHolder" style="display: none; position: fixed; bottom: 0; width: 100%; height: 30px; color: #B7B7B7; font-size: 9pt; font-family: tahoma; padding: 5px 0; z-index:1000">
+		<div style="width: 980px; margin: 0 auto;">
+			<div style="border-right: 1px solid #B7B7B7; float: left; padding: 0 5px;">
+				<a href="http://cookies.go-2.pl/cookies.pdf" target="_blank" style="color: #B7B7B7; font-size: 18pt; text-decoration: none;" rel="nofollow">Pliki Cookies (?)</a>
+			</div>
+			<div style="float: left; padding: 0 5px;">
+				Używamy plików cookies, by ułatwić korzystanie z serwisu.<br/>Jeśli nie chcesz, by pliki cookies były zapisywane na Twoim dysku zmień ustawienia swojej przeglądarki.
+			</div>
+			<div style="float: right; padding: 0 5px;">
+				<a href="#"  onClick="zamknij()" style="color: #B7B7B7; font-size: 18pt; text-decoration: none; border: 1px solid #B7B7B7; padding: 1px 5px;">OK</a>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		function zamknij() {
+			document.getElementById('cookieOpacity').style.display = 'none';
+			document.getElementById('cookieHolder').style.display = 'none';
+			
+			setCookie('cookiesAccepted', true, 360);
+			return false;
+		}
+		
+		widzial = getCookie('cookiesAccepted');
+		if (widzial == null || widzial == '') {
+			document.getElementById('cookieOpacity').style.display = 'block';
+			document.getElementById('cookieHolder').style.display = 'block';
+		}
+	</script>
+</body>
+</html>

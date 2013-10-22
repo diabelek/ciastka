@@ -1,0 +1,66 @@
+.cycle {
+	position:relative;
+	overflow: hidden;
+	height: 412px;
+	color: #fefefe;
+	z-index: 0;
+}
+
+.cycle .article.category{
+	width: 960px;
+}
+
+.cycle-holder {
+	/* The unordered list that is to be split into pages */
+	overflow:hidden;
+	position:relative;
+	margin: 0;
+	padding: 0;
+}
+
+.cycle-holder li{
+	list-style:none outside none;
+	float:left;
+}
+
+.swControls {
+	position: absolute;
+	top: 107px;
+	right: 14px;
+	z-index: 1000;
+}
+
+.swControls a {
+	background: url('../img/slider-button2.png') no-repeat;
+	padding: 8px 7px;
+	margin: 0 3px;
+	color: #264796;
+	font-size: 12px;
+}
+
+.swControls a.activeSlide {
+	background: url('../img/slider-button1.png') no-repeat;
+	color: #ffffff;
+}
+
+.clear{
+	/* This class clears the floated elements */
+	clear:both;
+}
+
+.cycle h2, .cycle h3 {
+	padding: 0;
+	margin: 0;
+	font-weight: normal;
+	border-bottom: none;
+}
+
+.cycle h2 {
+	font-size: 24px;
+}
+
+.cycle h3 {
+	font-size: 14px;
+	color: #fefefe;
+	padding-bottom: 30px;
+}

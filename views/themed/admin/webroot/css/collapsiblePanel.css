@@ -1,0 +1,34 @@
+.collapsibleContainer
+{
+	border: solid 1px #5F92BD;
+	margin: 1px;
+}
+
+.collapsibleContainerTitle
+{
+	cursor: pointer;
+}
+
+.collapsibleContainerTitle div
+{
+	padding-top: 5px;
+	padding-left: 10px;
+	background-color: #5F92BD;
+	color: #FFFFFF;
+}
+
+.collapsibleContainerContent
+{
+	padding: 10px;
+}
+
+.box .collapsibleContainerContent
+{
+	text-align: left;
+	padding: 0px;
+}
+
+.box .collapsibleContainerContent li
+{
+	list-style-type: none;
+}
